@@ -12,8 +12,9 @@ class Journalist(models.Model):
 
 class Article(models.Model):
     """Modello generico di un articolo di news"""
-    title = models.CharField(max_length=100)
-    content = models.TextField()
+   #  title = models.CharField(max_length=100)
+    titolo = models.CharField(max_length=100)
+    contenuto = models.TextField()
     journalist = models.ForeignKey(Journalist, on_delete=models.CASCADE, related_name="articles")
     
     def __str__(self):
