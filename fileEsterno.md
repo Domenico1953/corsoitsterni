@@ -7,5 +7,5 @@ file da usare in casi specifici
 * indirizzo wan
 * porta in ascolto
 * primo parametro
-* secondo parametro 
-
+* secondo parametro (obbligatorio)
+* terzo parametro (facoltativo)
